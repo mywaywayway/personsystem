@@ -21,7 +21,7 @@
 
 
 
-            <el-button @click="onPost">Post</el-button>
+<!--            <el-button @click="onPost">Post</el-button>-->
     </div>
   </div>
 
@@ -50,16 +50,16 @@ export default defineComponent({
      }
    },
   methods: {
-     onPost(){
-
-      axios.post("http://localhost:9090/user-entity/getUserById",{
-
-        pid:'1',
-
-      }).then(res =>{
-        console.log(res.data)
-      })
-    },
+    //  onPost(){
+    //
+    //   axios.post("http://localhost:9090/user-entity/getUserById",{
+    //
+    //     pid:'1',
+    //
+    //   }).then(res =>{
+    //     console.log(res.data)
+    //   })
+    // },
 
      onSubmit(){
       // request.post("localhost:9090/user-entity/login")
